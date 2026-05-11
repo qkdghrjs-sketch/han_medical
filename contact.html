@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>오시는 길 | 한내과의원</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">한내과의원</a>
+      <button class="menu-btn" aria-label="메뉴 열기">☰</button>
+      <nav class="nav">
+        <a href="index.html">홈</a>
+        <a href="departments.html">진료과목</a>
+        <a href="programs.html">피부 프로그램</a>
+        <a href="info.html">진료안내</a>
+        <a href="contact.html">오시는길</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <h1>오시는 길 · 문의</h1>
+
+    <div class="grid-2 cards">
+      <article class="card">
+        <h2>병원 정보</h2>
+        <p><strong>주소</strong>: 충남 천안시 동남구 버들로 25</p>
+        <p><strong>전화</strong>: 041-563-7575</p>
+        <p><strong>주차</strong>: 건물 인근 주차 가능</p>
+      </article>
+
+      <article class="card">
+        <h2>운영 시간 요약</h2>
+        <ul>
+          <li>월~금 09:00 - 18:00 (13:00 - 14:00 휴게)</li>
+          <li>토요일 1주·3주 휴무 / 2주·4주 09:00 - 14:00</li>
+          <li>일요일 정기휴무</li>
+          <li>공휴일 및 대체공휴일 휴무</li>
+        </ul>
+      </article>
+    </div>
+
+    <section class="map-section">
+      <h2>카카오맵</h2>
+      <div id="daumRoughmapContainer1778480590201" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+      <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+      <script charset="UTF-8">
+        new daum.roughmap.Lander({
+          timestamp: "1778480590201",
+          key: "n82a9or8y6o",
+          mapWidth: "640",
+          mapHeight: "360"
+        }).render();
+      </script>
+    </section>
+  </main>
+
+  <footer class="footer">© 2026 한내과의원.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
