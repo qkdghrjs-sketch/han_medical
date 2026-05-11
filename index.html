@@ -3,50 +3,89 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>한내과의원 | 내과·피부과·이비인후과</title>
+  <title>한내과의원 | 피부·내과·이비인후과</title>
+  <meta name="description" content="피부과·내과·이비인후과 진료를 한 곳에서. 한내과의원" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="logo" href="index.html">한내과의원</a>
+      <a class="logo" href="/">한내과의원</a>
       <button class="menu-btn" aria-label="메뉴 열기">☰</button>
       <nav class="nav">
-        <a href="index.html">홈</a>
-        <a href="departments.html">진료과목</a>
-        <a href="programs.html">피부 프로그램</a>
-        <a href="info.html">진료안내</a>
-        <a href="contact.html">오시는길</a>
+        <a href="/">홈</a>
+        <a href="/departments">진료과목</a>
+        <a href="/programs">피부 프로그램</a>
+        <a href="/info">진료안내</a>
+        <a href="/contact">오시는길</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="container">
-        <h1>내과 · 피부과 · 이비인후과<br>한 번에 만나는 종합 진료</h1>
-        <p>지역 주민의 건강을 위한 정확한 진단과 맞춤형 치료를 제공합니다.</p>
-        <a class="btn" href="info.html">진료시간 보기</a>
+      <div class="container hero-grid">
+        <div>
+          <span class="badge">DERMA · INTERNAL · ENT</span>
+          <h1>맑고 건강한 피부,<br />정확한 진료를 한 곳에서</h1>
+          <p>
+            한내과의원은 피부과 중심 프리미엄 케어와
+            내과·이비인후과 진료를 함께 제공합니다.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="/contact">빠른 문의</a>
+            <a class="btn btn-ghost" href="/info">진료시간 확인</a>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <h3>오늘 진료 안내</h3>
+          <ul class="list-clean table-like">
+            <li>평일 09:00 ~ 18:00</li>
+            <li>점심 13:00 ~ 14:00</li>
+            <li>토요일 1·3주 휴무 / 2·4주 14:00까지</li>
+            <li>일요일·공휴일 휴무</li>
+          </ul>
+        </aside>
       </div>
     </section>
 
-    <section class="container grid-3 cards">
-      <article class="card"><h2>내과</h2><p>감기·고열·소화기 증상, 만성질환, 건강검진 중심의 내과 진료</p></article>
-      <article class="card"><h2>피부과</h2><p>여드름, 아토피, 기미/잡티, 레이저·필러·보톡스 프로그램</p></article>
-      <article class="card"><h2>이비인후과</h2><p>비염, 인후통, 알레르기, 귀·코·목 불편 증상 진료</p></article>
+    <section class="section">
+      <div class="container">
+        <h2>대표 진료 영역</h2>
+        <p class="lead">피부 고민부터 일반 진료까지, 연계 진료로 더 편리하게.</p>
+        <div class="grid-3">
+          <article class="card">
+            <h3>피부과</h3>
+            <p>여드름·기미·탄력·모공·레이저·필러·보톡스</p>
+          </article>
+          <article class="card">
+            <h3>내과</h3>
+            <p>감기·소화기·만성질환·금연치료·건강검진</p>
+          </article>
+          <article class="card">
+            <h3>이비인후과</h3>
+            <p>비염·인후통·기침·귀코목 염증·알레르기</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section class="container notice">
-      <h2>검사 안내</h2>
-      <ul>
-        <li>공단검진 / 종합검진</li>
-        <li>초음파 검사 (복부·갑상선·경동맥)</li>
-        <li>혈액 종합검진(암 지표 포함)</li>
-        <li>골밀도 검사</li>
-      </ul>
+    <section class="section">
+      <div class="container">
+        <article class="card notice">
+          <h3>검사 안내</h3>
+          <ul class="list-clean">
+            <li>공단(일반)검진 / 종합검진</li>
+            <li>초음파 (복부·갑상선·경동맥)</li>
+            <li>혈액 종합검진(암지표)</li>
+            <li>골밀도 검사 / 독감 예방접종</li>
+          </ul>
+        </article>
+      </div>
     </section>
   </main>
-  <footer class="footer">© 2026 한내과의원. All rights reserved.</footer>
+
+  <footer class="footer">© 2026 한내과의원</footer>
   <script src="script.js"></script>
 </body>
 </html>
